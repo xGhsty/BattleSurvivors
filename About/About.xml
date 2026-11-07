@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Battle Survivors (Dynamic Diplomacy x Eternal Pawns)</name>
+  <author>Ghost</author>
+  <packageId>ghost.battlesurvivors</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+    </li>
+  </modDependencies>
+  <description>Dynamic Diplomacy destroys every pawn left on a battle map once the battle is decided and the player is not there. Eternal Pawns only saves a pawn when it is passed to world pawns, so surviving winners were lost.
+
+Right before Dynamic Diplomacy destroys a living pawn, this mod hands it to Eternal Pawns if it is a saved veteran or was pinned with "Remember". Veterans still fight in battles as before, and the survivors return to the pool.
+
+A downed remembered pawn left behind by the losing side is treated as a captive: 50% it is recruited by the winning faction (and joins its veteran pool), 50% it is killed.
+
+Does nothing if Dynamic Diplomacy or Eternal Pawns is not loaded. Needs no load order.</description>
+</ModMetaData>
